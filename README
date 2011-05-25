@@ -1,0 +1,11 @@
+PDF Link Icon 
+
+Plugin for ExpressionEngine 2
+
+This will detect PDF links and add a pdf icon to the right of the link.
+
+Usage:
+
+{exp:pdf_icon title="{title_of_link}" alt_tag="Alt Text"}{custom_field_url}{/exp:pdf_icon}
+
+The title and alt_tag parameters are optional
