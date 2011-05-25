@@ -3,27 +3,25 @@
 /**
  * ExpressionEngine Loop Plugin
  *
- * @package		Loop Plugin
- * @subpackage		Plugins
+ * @package		  PDF Icon Detector
+ * @subpackage	Plugins
  * @category		Plugins
- * @author		Ben Croker
- * @link			http://www.putyourlightson.net/projects/loop/
+ * @author		  Brad Morse
+ * @link			  http://github.com/bkmorse
  */
 
-$plugin_info = array(
-				'pi_name'			=> 'PDF Icon Detector',
-				'pi_version'		=> '1',
-				'pi_author'		=> 'Brad Morse',
-				'pi_author_url'	=> 'http://twitter.com/bkmorse',
-				'pi_description'	=> 'Adds PDF Icon to PDF linked files',
-				'pi_usage'		=> Pdf_icon::usage()
-			);
-
+  $plugin_info = array(
+  	'pi_name'			    => 'PDF Icon Detector',
+  	'pi_version'	  	=> '1',
+  	'pi_author'		    => 'Brad Morse',
+  	'pi_author_url'	  => 'http://twitter.com/bkmorse',
+  	'pi_description'	=> 'Adds PDF Icon to PDF linked files',
+  	'pi_usage'		    => Pdf_icon::usage()
+  );
 
 class Pdf_icon {
 
 	var $return_data;
-
 	
 	/**
 	  *  Constructor
